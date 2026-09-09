@@ -32,7 +32,7 @@ from raw
 
  /* Result 
 Year	ProductCategory	Revenue	Rev_share
-2010	Bikes	43419	100
+2010	Bikes	      43419	100
 2011	Bikes	7075088	100
 2012	Bikes	5839443	99.95
 2012	Accessories	2146	0.04
