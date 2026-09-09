@@ -20,13 +20,13 @@ Year	Location	        Revenue	  Rev_share
 2010	United States	    14833	    34.16
 2010	Canada	            3578	    8.24
 2010	France	            3400	    7.83
-2010	United Kingdom	    699	      1.61
+2010	United Kingdom	    699	        1.61
 2011	Australia	        2563589	    36.23
 2011	United States	    2458122	    34.74
-2011	Canada	          571533	    08.08
-2011	United Kingdom	  550558	    7.78
-2011	Germany	          520468	    7.36
-2011	France	          410818	  5.81
+2011	Canada	            571533	  08.08
+2011	United Kingdom	    550558	  7.78
+2011	Germany	            520468	  7.36
+2011	France	            410818	  5.81
 2012	Australia	        2128322	  36.43
 2012	United States	    1436953	  24.6
 2012	United Kingdom	  712680	  12.2
