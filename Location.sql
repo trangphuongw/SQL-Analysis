@@ -14,13 +14,13 @@ select *
 from loc
 order by 1 asc, 4 desc
 
-/*Result*/
+/*Result
 Year	Location	        Revenue	  Rev_share
 2010	Australia	        20909	    48.16
 2010	United States	    14833	    34.16
-2010	Canada	          3578	    8.24
-2010	France	          3400	    7.83
-2010	United Kingdom	  699	      1.61
+2010	Canada	            3578	    8.24
+2010	France	            3400	    7.83
+2010	United Kingdom	    699	      1.61
 2011	Australia	        2563589	  36.23
 2011	United States	    2458122	  34.74
 2011	Canada	          571533	  08.08
