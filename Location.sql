@@ -44,5 +44,4 @@ Year	Location	        Revenue	  Rev_share
 2014	Australia	        8493	    18.61
 2014	United Kingdom	    3711	    8.13
 2014	Germany	            3273	    7.17
-2014	France	           3186	      6.98
-*/
+2014	France	           3186	        6.98*/
