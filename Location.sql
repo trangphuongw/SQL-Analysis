@@ -39,10 +39,10 @@ Year	Location	        Revenue	  Rev_share
 2013	Germany	            1761641	    10.78
 2013	France	            1578292	    9.65
 2013	Canada	            1085442	    6.64
-2014	United States	    17526	      38.4
-2014	Canada	            9453	      20.71
-2014	Australia	        8493	      18.61
+2014	United States	    17526	    38.4
+2014	Canada	            9453	    20.71
+2014	Australia	        8493	    18.61
 2014	United Kingdom	    3711	    8.13
 2014	Germany	            3273	    7.17
-2014	France	           3186	      6.98
+2014	France	           3186	    6.98
 */
