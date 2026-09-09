@@ -11,6 +11,20 @@ group by 1,2
 order by 3 desc
 limit 10
 
+/* Result
+ProductCategory	ProductName	Revenue
+Bikes	Mountain-200 Black, 46	1373454
+Bikes	Mountain-200 Black, 42	1363128
+Bikes	Mountain-200 Silver, 38	1339394
+Bikes	Mountain-200 Silver, 46	1301029
+Bikes	Mountain-200 Black, 38	1294854
+Bikes	Mountain-200 Silver, 42	1257368
+Bikes	Road-150 Red, 48	1205786
+Bikes	Road-150 Red, 62	1202208
+Bikes	Road-150 Red, 52	1080556
+Bikes	Road-150 Red, 56	1055510
+*/
+
  /* Revenue share by category */ 
 with raw as
 (select extract(year from OrderDate) as Year
