@@ -1,4 +1,4 @@
-*/ Order by countries based on revenue/ rev share each year/*
+/* Order by countries based on revenue/ rev share each year */
 with loc as 
 (select extract(year from OrderDate) as Year
   , SalesTerritoryCountry as Location
