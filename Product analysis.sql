@@ -31,15 +31,15 @@ from raw
 order by 1 asc, 3 desc
 
  /* Result 
-Year	ProductCategory	Revenue	Rev_share
-2010	Bikes	        43419	100
-2011	Bikes	        7075088	100
-2012	Bikes	        5839443	99.95
-2012	Accessories	    2146	0.04
-2012	Clothing	    642	  0.01
-2013	Bikes	        1535832293.94
-2013	Accessories	    667536	04.08
-2013	Clothing	    323472	1.98
-2014	Accessories	    30332	66.46
-2014	Clothing	    15310	33.54
+Year	ProductCategory	Revenue	  Rev_share
+2010	Bikes	        43419	  100
+2011	Bikes	        7075088	  100
+2012	Bikes	        5839443	  99.95
+2012	Accessories	    2146	  0.04
+2012	Clothing	    642	      0.01
+2013	Bikes	        15358322  93.94
+2013	Accessories	    667536	  04.08
+2013	Clothing	    323472	  1.98
+2014	Accessories	    30332	  66.46
+2014	Clothing	    15310	  33.54
 */ 
