@@ -1,25 +1,36 @@
-/* Return rate*/
-with customer as
-(
-  select extract(year from OrderDate) as Year
-  , CustomerKey
-  , count(distinct SalesOrderNumber) as orders
-from jda-k1.practice_data_pipeline.trfsales as fact
-group by 1,2
+/* Return rate: return buyer is defined as having at least 1 order after the first purchase within 12 months */
+with first_buy as (
+  select min(OrderDate) as first_date
+    , FirstPurchaseYear as Cohort_year
+    , f.CustomerKey
+  from jda-k1.practice_data_pipeline.trfsales as f
+  left join jda-k1.practice_data_pipeline.trdcustomer as cus
+  on f.CustomerKey = cus.CustomerKey
+  group by 2,3
 )
-select Year
-  , count(distinct CustomerKey) as Total_buyers
-  , count(case when orders >= 2 then CustomerKey end) as Return_buyers
-  , round(count(case when orders >= 2 then CustomerKey end) * 100 / count(distinct CustomerKey), 2) as Return_rate
-from customer
+, returned as(
+  select distinct f.CustomerKey
+  from jda-k1.practice_data_pipeline.trfsales as f
+  join first_buy as fb
+  on f.CustomerKey = fb.CustomerKey
+  where f.OrderDate > fb.first_date
+    and f.OrderDate <= date_add(OrderDate, interval 12 month)
+)
+select fb.Cohort_year
+  , count(distinct fb.CustomerKey) as Total_buyers
+  , count(distinct r.CustomerKey) as Return_buyes
+  , round(count(distinct r.CustomerKey) * 100 / count(distinct fb.CustomerKey), 2 ) as Return_rate
+from first_buy as fb
+left join returned as r
+on fb.CustomerKey = r.CustomerKey
 group by 1
 order by 1 asc
 
 /* Results
-Year	Total_buyers	Return_buyers	Return_rate
-2010	14	            0	            0
-2011	2,216	        0	            0
-2012	3,255	        14	            0.43
-2013	17,429	        2665	        15.29
-2014	834	            30	            3.6
+Cohort_year	Total_buyers	Return_buyes	Return_rate
+2.010	      14	13	92.86
+2.011	      2,216	1955	88.22
+2.012	      3,225	2955	91.63
+2.013	      12,523	1930	15.41
+2.014	      506	7	1.38
 */
