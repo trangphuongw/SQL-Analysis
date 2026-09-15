@@ -13,16 +13,16 @@ limit 10
 
 /* Result
 Category	ProductName	        Revenue
-Bikes	Mountain-200 Black, 46	1373454
-Bikes	Mountain-200 Black, 42	1363128
-Bikes	Mountain-200 Silver, 38	1339394
-Bikes	Mountain-200 Silver, 46	1301029
-Bikes	Mountain-200 Black, 38	1294854
-Bikes	Mountain-200 Silver, 42	1257368
-Bikes	Road-150 Red, 48	    1205786
-Bikes	Road-150 Red, 62	    1202208
-Bikes	Road-150 Red, 52	    1080556
-Bikes	Road-150 Red, 56	    1055510
+Bikes	Mountain-200 Black, 46	1,373,454
+Bikes	Mountain-200 Black, 42	1,363,128
+Bikes	Mountain-200 Silver, 38	1,339,394
+Bikes	Mountain-200 Silver, 46	1,301,029
+Bikes	Mountain-200 Black, 38	1,294,854
+Bikes	Mountain-200 Silver, 42	1,257,368
+Bikes	Road-150 Red, 48	    1,205,786
+Bikes	Road-150 Red, 62	    1,202,208
+Bikes	Road-150 Red, 52	    1,080,556
+Bikes	Road-150 Red, 56	    1,055,510
 */
 
  /* Revenue share by category */ 
@@ -46,14 +46,14 @@ order by 1 asc, 3 desc
 
  /* Result 
 Year	ProductCategory	Revenue	  Rev_share
-2010	Bikes	        43419	  100
-2011	Bikes	        7075088	  100
-2012	Bikes	        5839443	  99.95
-2012	Accessories	    2146	  0.04
+2010	Bikes	        43,419	  100
+2011	Bikes	        7,075,088	  100
+2012	Bikes	        5,839,443	  99.95
+2012	Accessories	    2,146	  0.04
 2012	Clothing	    642	      0.01
-2013	Bikes	        15358322  93.94
-2013	Accessories	    667536	  04.08
-2013	Clothing	    323472	  1.98
-2014	Accessories	    30332	  66.46
-2014	Clothing	    15310	  33.54
+2013	Bikes	        15,358,322  93.94
+2013	Accessories	    667,536	  04.08
+2013	Clothing	    323,472	  1.98
+2014	Accessories	    30,332	  66.46
+2014	Clothing	    15,310	  33.54
 */ 
