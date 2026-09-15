@@ -45,15 +45,15 @@ from raw
 order by 1 asc, 3 desc
 
  /* Result 
-Year	ProductCategory	Revenue	  Rev_share
-2010	Bikes	        43,419	  100
+Year	ProductCategory	Revenue	      Rev_share
+2010	Bikes	        43,419	      100
 2011	Bikes	        7,075,088	  100
 2012	Bikes	        5,839,443	  99.95
-2012	Accessories	    2,146	  0.04
-2012	Clothing	    642	      0.01
-2013	Bikes	        15,358,322  93.94
-2013	Accessories	    667,536	  04.08
-2013	Clothing	    323,472	  1.98
-2014	Accessories	    30,332	  66.46
-2014	Clothing	    15,310	  33.54
+2012	Accessories	    2,146	      0.04
+2012	Clothing	    642	          0.01
+2013	Bikes	        15,358,322      93.94
+2013	Accessories	    667,536	      04.08
+2013	Clothing	    323,472	      1.98
+2014	Accessories	    30,332	      66.46
+2014	Clothing	    15,310	      33.54
 */ 
