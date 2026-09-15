@@ -9,6 +9,6 @@ group by Gender
 
 /* Result 
 Gender	Revenue	       Rev_share
-F	    14,812,104	  5.046
-M	    14,543,606	  4.954
+F	    14,812,104	   5.046
+M	    14,543,606	   4.954
 */
