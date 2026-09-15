@@ -51,7 +51,7 @@ Year	ProductCategory	Revenue	      Rev_share
 2012	Bikes	        5,839,443	  99.95
 2012	Accessories	    2,146	      0.04
 2012	Clothing	    642	          0.01
-2013	Bikes	        15,358,322      93.94
+2013	Bikes	        15,358,322    93.94
 2013	Accessories	    667,536	      04.08
 2013	Clothing	    323,472	      1.98
 2014	Accessories	    30,332	      66.46
